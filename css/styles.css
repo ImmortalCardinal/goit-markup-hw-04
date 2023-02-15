@@ -154,8 +154,20 @@ padding-right: 15px;
     color: #434455;
 }
 
+.overlay
+{
+max-width: 1440px;
+height: ;
+margin-left: auto;
+margin-right: auto;
+background-image: url('../images/dark_bg_hero.png'),url('../images/background_hero.png');
+/* linear-gradient() */
+background-repeat: no-repeat;
+background-position: center;
+}
+
 .hero {
-    background: #2E2F42;
+    /* background: #2E2F42; */
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
