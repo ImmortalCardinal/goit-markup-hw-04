@@ -536,11 +536,7 @@ padding-bottom: 120px;
 .portfolio-main-container
 {
 }
-/* .portfolio_list_link :hover
-{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
-.portfolio_list_link :is(:hover)
+.portfolio_list_item div:is(:hover)
 {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -560,8 +556,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 {
     margin-right: 24px;
 }
-.button_list :hover .btn_portfolio,
-.button_list :focus .btn_portfolio {
+.btn_portfolio:hover,
+.btn_portfolio:focus
+{
     background-color: #2196F3;
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12)
